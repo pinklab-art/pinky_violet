@@ -16,6 +16,14 @@
 
     <node pkg="pinky_bringup" exec="pinky_bringup">
         <param name="motor_ratio" value="$(var motor_ratio)"/>
-    </node>
+</node>
+
+<node pkg="pinky_emotion" exec="pinky_emotion" name="pinky_emotion"></node>
+
+
+    <node pkg="pinky_bringup" exec="pinky_camera"></node>
+
+
+
     
 </launch>
