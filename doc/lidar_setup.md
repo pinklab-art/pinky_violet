@@ -75,5 +75,5 @@ frame_id = LaunchConfiguration('frame_id', default='laser_link')
 ```
 ## 7. Lidar실행 및 터미널 확인
 ```
-ros2 topic echo /imu
+ros2 topic echo /scan
 ```
